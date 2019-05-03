@@ -253,26 +253,27 @@ ul li {
 		display:flex;
 		justify-items: flex-start;
 		width:1500px;
-		height:50px;
-		padding-top: 15px; 
+		height:75px;
+		padding-top: 30px; 
 		font-size: 25px;
 		border:5px solid red; 
 	}
 
-	.services p{
-		width:3000px;
+	.services2 p{
+		width:1500px;
 		height:250px;
 		padding-bottom:20px;
 		display:flex;
 		justify-content: flex-start;
 		border: 5px solid red; 
+		border-bottom: 1px solid black;
 	}
 
 	.middle-boxes{
 		display:flex;
 		flex-wrap: wrap;
 		width:1500px;
-		border:1px solid red; 
+		border-bottom: 1px solid black; 
 
 	}
 
@@ -281,6 +282,7 @@ ul li {
 		height:300px;
 		background-color:lightgray;
 		margin:50px;
+		border: 1px solid black;
 	}
 
 	.UXUI{
@@ -288,6 +290,7 @@ ul li {
 		height:300px;
 		background-color:lightgray;
 		margin:50px;
+		border: 1px solid black;
 	}
 
 	.DigitalMark{
@@ -295,6 +298,7 @@ ul li {
 		height:300px;
 		background-color:lightgray;
 		margin:50px;
+		border: 1px solid black;
 	}
 	
 	.webdev{
@@ -302,6 +306,7 @@ ul li {
 		height:300px;
 		background-color:lightgray;
 		margin:50px;
+		border: 1px solid black;
 	}
 
 	.ios{
@@ -309,6 +314,7 @@ ul li {
 		height:300px;
 		background-color:lightgray;
 		margin:50px;
+		border: 1px solid black;
 	}
 
 	.andriod{
@@ -316,17 +322,53 @@ ul li {
 		height:300px;
 		background-color:lightgray;
 		margin:50px;
+		border: 1px solid black;
 	}
 
-	.bottom-info{
-		display:flex;
-
-	}
 
 	.bottom-info{
+		width:300px;
+		height:1000px;
 		display:flex;
-		flex-flow:column:
+		flex-flow:column;
 	}
 	
+	.bottom-info h4{
+		width:400px;
+		margin-top:50px;
+		font-size:25px;
+	}
+
+	.bottom-info p{
+		width:500px;
+		padding-bottom:50px;
+	}
+
+
+	.services-info-img{
+		width:750px;
+		height:500px;
+		display:flex;
+		margin-left: 800px;
+		margin-top:-950px;
+		
+	}
+
+	.bottomInfoList{
+		display:flex;
+		flex-flow:column;
+		padding:5px;
+		border: 2px solid red;
+	}
+
+	.bullet{
+		list-style-type: square;
+	}
+
+	.copyright{
+		display:flex;
+		justify-content: center;
+		align-content: flex-end;
+	}
 
 	
